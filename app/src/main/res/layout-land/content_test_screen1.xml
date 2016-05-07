@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:text="@string/ts1mq" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/ts1a1"
+        android:onClick="onClickToast1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="take my time learning about the decision and think it through"
+        android:onClick="onClickToast2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="think about others and choose what is best for everyone"
+        android:onClick="onClickToast3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="look at what others have done and do that"
+        android:onClick="onClickToast4"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/yourSelection"
+        android:onClick="onClickToast4"/>
+
+    <TextView android:id="@+id/yourSelection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:onClick="onClickToast4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next question"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickStartTestScreen2"/>
+
+</LinearLayout>

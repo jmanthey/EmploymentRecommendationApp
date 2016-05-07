@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.employmentrecommendationapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".testScreen1"
+            android:label="@string/title_activity_test_screen1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testScreen2"
+            android:label="@string/title_activity_test_screen2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testScreen3"
+            android:label="@string/title_activity_test_screen3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testScreen4"
+            android:label="@string/title_activity_test_screen4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".testScreen5"
+            android:label="@string/title_activity_test_screen5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".resultsScreen"
+            android:label="@string/title_activity_results_screen"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
