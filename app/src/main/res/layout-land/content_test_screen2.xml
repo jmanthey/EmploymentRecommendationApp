@@ -18,42 +18,42 @@
         android:textColor="#000000"
         android:textSize="25sp"
         android:gravity="center_horizontal"
-        android:text="@string/ts1mq" />
+        android:text="@string/ts2headline" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textSize="15sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:gravity="center_horizontal"
-        android:text="@string/ts1a1"
+        android:text="@string/ts2a1"
         android:onClick="onClickToast1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textSize="15sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:gravity="center_horizontal"
-        android:text="@string/ts1a2"
+        android:text="@string/ts2a2"
         android:onClick="onClickToast2"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textSize="15sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:gravity="center_horizontal"
-        android:text="@string/ts1a3"
+        android:text="@string/ts2a3"
         android:onClick="onClickToast3"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-light"
         android:textSize="15sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:gravity="center_horizontal"
-        android:text="@string/ts1a4"
+        android:text="@string/ts2a4"
         android:onClick="onClickToast4"/>
 
     <TextView
@@ -62,7 +62,7 @@
         android:fontFamily="sans-serif-light"
         android:textColor="#000000"
         android:textSize="20sp"
-        android:padding="10dp"
+        android:padding="5dp"
         android:gravity="center_horizontal"
         android:text="@string/yourSelection"
         android:onClick="onClickToast4"/>
@@ -74,7 +74,6 @@
         android:textSize="15sp"
         android:padding="10dp"
         android:gravity="center_horizontal"
-        android:saveEnabled="true"
         android:text=""
         android:onClick="onClickToast4"/>
 
@@ -82,9 +81,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nextQuestion"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="40dp"
         android:id="@+id/button"
         android:layout_gravity="center_horizontal"
-        android:onClick="onClickStartTestScreen2"/>
+        android:onClick="onClickStartTestScreen3"/>
 
 </LinearLayout>

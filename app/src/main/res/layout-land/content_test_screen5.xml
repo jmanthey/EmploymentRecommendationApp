@@ -32,7 +32,7 @@
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:onClick="onClickToast1"
-            android:padding="15dp"
+            android:padding="10dp"
             android:src="@drawable/parachute" />
 
         <ImageView
@@ -40,7 +40,7 @@
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:onClick="onClickToast2"
-            android:padding="15dp"
+            android:padding="10dp"
             android:src="@drawable/gear" />
 
     </LinearLayout>
@@ -66,7 +66,7 @@
             android:layout_width="113dp"
             android:layout_height="wrap_content"
             android:onClick="onClickToast4"
-            android:padding="15dp"
+            android:padding="10dp"
             android:src="@drawable/clock" />
 
     </LinearLayout>
@@ -81,7 +81,7 @@
         android:padding="10dp"
         android:text="@string/yourSelection"
         android:textColor="#000000"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/yourSelection"
@@ -90,7 +90,7 @@
         android:fontFamily="sans-serif-light"
         android:gravity="center_horizontal"
         android:onClick="onClickToast4"
-        android:padding="10dp"
+        android:padding="5dp"
         android:text=""
         android:textSize="15sp" />
 
@@ -99,7 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:onClick="onClickStartTestScreen5"
         android:text="@string/seeResults" />
 

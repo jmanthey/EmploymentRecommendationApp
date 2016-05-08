@@ -18,6 +18,11 @@ public class testScreen1 extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onRestoreInstanceState(Bundle savedState) {
+        super.onRestoreInstanceState(savedState);
+    }
+
     public void onClickStartTestScreen2(View view) {
 
         if(test == true) {

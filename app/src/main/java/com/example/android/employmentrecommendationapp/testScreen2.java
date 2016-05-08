@@ -36,7 +36,7 @@ public class testScreen2 extends AppCompatActivity {
 
     public void onClickToast1(View view) {
 
-        Toast.makeText(getApplicationContext(), "energtic and and willing to try new things" + testScore, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "energtic and and willing to try new things", Toast.LENGTH_SHORT).show();
         ((TextView)findViewById(R.id.yourSelection)).setText("energtic and and willing to try new things");
         screenScore = 1;
         test = true;

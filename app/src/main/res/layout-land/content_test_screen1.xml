@@ -74,6 +74,7 @@
         android:textSize="15sp"
         android:padding="5dp"
         android:gravity="center_horizontal"
+        android:saveEnabled="true"
         android:text=""
         android:onClick="onClickToast4"/>
 

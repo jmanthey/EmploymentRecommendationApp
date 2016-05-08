@@ -36,8 +36,8 @@ public class testScreen5 extends AppCompatActivity {
 
     public void onClickToast1(View view) {
 
-        Toast.makeText(getApplicationContext(), "heart" + testScore, Toast.LENGTH_SHORT).show();
-        ((TextView)findViewById(R.id.yourSelection)).setText("heart");
+        Toast.makeText(getApplicationContext(), "parachute", Toast.LENGTH_SHORT).show();
+        ((TextView)findViewById(R.id.yourSelection)).setText("parachute");
         screenScore = 1;
         test = true;
 
@@ -45,24 +45,24 @@ public class testScreen5 extends AppCompatActivity {
 
     public void onClickToast2(View view) {
 
-        Toast.makeText(getApplicationContext(), "parachute", Toast.LENGTH_SHORT).show();
-        ((TextView)findViewById(R.id.yourSelection)).setText("parachute");
+        Toast.makeText(getApplicationContext(), "gear", Toast.LENGTH_SHORT).show();
+        ((TextView)findViewById(R.id.yourSelection)).setText("gear");
         screenScore = 2;
         test = true;
     }
 
     public void onClickToast3(View view) {
 
-        Toast.makeText(getApplicationContext(), "empathy", Toast.LENGTH_SHORT).show();
-        ((TextView)findViewById(R.id.yourSelection)).setText("empathy");
+        Toast.makeText(getApplicationContext(), "heart", Toast.LENGTH_SHORT).show();
+        ((TextView)findViewById(R.id.yourSelection)).setText("heart");
         screenScore = 3;
         test = true;
     }
 
     public void onClickToast4(View view) {
 
-        Toast.makeText(getApplicationContext(), "perspective", Toast.LENGTH_SHORT).show();
-        ((TextView)findViewById(R.id.yourSelection)).setText("perspective");
+        Toast.makeText(getApplicationContext(), "clock", Toast.LENGTH_SHORT).show();
+        ((TextView)findViewById(R.id.yourSelection)).setText("clock");
         screenScore = 4;
         test = true;
     }
